@@ -1,7 +1,6 @@
 import PostPreview from "../components/PostPreview";
 import { getAllPosts } from "../lib/api";
-import Head from "next/head";
-
+import { NextSeo } from "next-seo";
 import Post from "../types/post";
 
 type Props = {
@@ -11,9 +10,15 @@ type Props = {
 const Blog = ({ allPosts }: Props) => {
   return (
     <>
-      <Head>
-        <title>Blog | Crystal Clear Shine</title>
-      </Head>
+      <NextSeo
+        title="Blog | Crystal Clear Shine"
+        description="Window cleaning, fleet cleaning, dryer vent cleaning services, power washing for homeowners and business owners."
+        openGraph={{
+          title: "Blog | Crystal Clear Shine",
+          description:
+            "Window cleaning, fleet cleaning, dryer vent cleaning services, power washing for homeowners and business owners."
+        }}
+      />
       <div className="max-w-screen-xl mx-auto">
         <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
           <div className="absolute inset-0">

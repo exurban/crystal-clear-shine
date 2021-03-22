@@ -1,10 +1,20 @@
 import Link from "next/link";
+import { NextSeo } from "next-seo";
 import { Features4x } from "../components/MktgFeatures";
 import { homeowners, businessOwners } from "../../data/features";
 
 const Index = () => {
   return (
     <>
+      <NextSeo
+        title="Services | Crystal Clear Shine"
+        description="Window cleaning, fleet cleaning, dryer vent cleaning services, power washing for homeowners and business owners."
+        openGraph={{
+          title: "Services | Crystal Clear Shine",
+          description:
+            "Window cleaning, fleet cleaning, dryer vent cleaning services, power washing for homeowners and business owners."
+        }}
+      />
       <div className="max-w-screen-xl mx-auto">
         <div className="absolute inset-0">
           <img
