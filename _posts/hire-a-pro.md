@@ -2,7 +2,7 @@
 title: "Why Is it Important to Hire a Professional Window Cleaner?"
 postType: "Article"
 excerpt: "Do you know what outsiders notice first about your home or business place? The answer is definitely windows! Watching the world through dirty windows is really irritating. Keeping your windows clean allows good sunshine into your home and also provides good ventilation. If you are in search of a solution to make your windows shine again, we are here for you."
-coverImage: "https://unsplash.com/photos/Rcsa_Rg77Tc"
+coverImage: "/assets/blog/hire-a-pro/cover.png"
 photoCredit: "Photo by Nuno Silva via Unsplash"
 date: "2018-08-08T05:35:07.322Z"
 readTime: "5 min"
@@ -10,7 +10,7 @@ author:
   name: Seth Langston
   picture: "/assets/blog/authors/seth.png"
 ogImage:
-  url: "https://unsplash.com/photos/Rcsa_Rg77Tc"
+  url: "/assets/blog/hire-a-pro/cover.png"
 ---
 
 Do you know what outsiders notice first about your home or business place? The answer is definitely windows! Watching the world through dirty windows is really irritating. Keeping your windows clean allows good sunshine into your home and also provides good ventilation. If you are in search of a solution to make your windows shine again, we are here for you.
