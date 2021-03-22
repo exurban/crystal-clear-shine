@@ -1,3 +1,5 @@
+const { fontFamily } = require("tailwindcss/defaultTheme");
+
 module.exports = {
   purge: ["./components/**/*.tsx", "./pages/**/*.tsx"],
   theme: {
@@ -25,6 +27,10 @@ module.exports = {
       },
       lineHeight: {
         tight: 1.2
+      },
+      fontFamily: {
+        sans: ["Inter", ...fontFamily.sans],
+        hero: ["Lobster", ...fontFamily.sans]
       },
       fontSize: {
         "5xl": "2.5rem",
