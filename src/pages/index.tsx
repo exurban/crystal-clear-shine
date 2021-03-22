@@ -12,7 +12,15 @@ const Index = () => {
         openGraph={{
           title: "Services | Crystal Clear Shine",
           description:
-            "Window cleaning, fleet cleaning, dryer vent cleaning services, power washing for homeowners and business owners."
+            "Window cleaning, fleet cleaning, dryer vent cleaning services, power washing for homeowners and business owners.",
+          images: [
+            {
+              url: "https://gyreimages.s3.us-east-2.amazonaws.com/ccs-share-card.png",
+              width: 1200,
+              height: 620,
+              alt: "OG Image"
+            }
+          ]
         }}
       />
       <div className="max-w-screen-xl mx-auto">
