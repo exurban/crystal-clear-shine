@@ -1,8 +1,11 @@
 ---
 title: "Power Washing Near Me"
+postType: "Article"
 excerpt: "For homeowners, any time is a good time to do exterior maintenance of their dream home. Many homeowners often ask themselves, “how do I find pressure washing near me?”  Maintenance of your home, including washing your house siding, gutters, overhangs, and windows add to the life and beauty of your house. If you are looking for a professional touch you must hire a power washing contractor for your buildings exterior, driveway, parking lot, or other external surfaces because of the immeasurable benefits they can provide."
 coverImage: "/assets/blog/power-washing-near-me/cover.png"
+photoCredit: ""
 date: "2017-01-26T05:35:07.322Z"
+readTime: "3 min"
 author:
   name: Seth Langston
   picture: "/assets/blog/authors/seth.png"

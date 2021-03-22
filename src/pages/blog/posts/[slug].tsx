@@ -1,15 +1,12 @@
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
-import Container from "../../components/Container";
-import PostBody from "../../components/PostBody";
-import Header from "../../components/Header";
-import PostHeader from "../../components/PostHeader";
-import { getPostBySlug, getAllPosts } from "../../lib/api";
-import PostTitle from "../../components/PostTitle";
+import Container from "../../../components/Container";
+import PostPage from "../../../components/PostPage";
+import { getPostBySlug, getAllPosts } from "../../../lib/api";
+import PostTitle from "../../../components/PostTitle";
 import Head from "next/head";
-import { CMS_NAME } from "../../lib/constants";
-import markdownToHtml from "../../lib/markdownToHtml";
-import PostType from "../../types/post";
+import markdownToHtml from "../../../lib/markdownToHtml";
+import PostType from "../../../types/post";
 
 type Props = {
   post: PostType;
@@ -24,25 +21,25 @@ const Post = ({ post }: Props) => {
   }
   return (
     <Container>
-      <Header />
       {router.isFallback ? (
         <PostTitle>Loading…</PostTitle>
       ) : (
         <>
           <article className="mb-32">
             <Head>
-              <title>
-                {post.title} | Next.js Blog Example with {CMS_NAME}
-              </title>
+              <title>{post.title} | Crystal Clear Shine</title>
               <meta property="og:image" content={post.ogImage.url} />
             </Head>
-            <PostHeader
+            <PostPage
               title={post.title}
+              postType={post.postType}
+              excerpt={post.excerpt}
               coverImage={post.coverImage}
+              photoCredit={post.photoCredit}
               date={post.date}
               author={post.author}
+              content={post.content}
             />
-            <PostBody content={post.content} />
           </article>
         </>
       )}
@@ -64,6 +61,7 @@ export async function getStaticProps({ params }: Params) {
     "date",
     "slug",
     "author",
+    "readTime",
     "content",
     "ogImage",
     "coverImage"

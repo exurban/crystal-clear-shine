@@ -1,8 +1,11 @@
 ---
 title: "Restorative Pressure Washing"
+postType: "Article"
 excerpt: "Owing to the busy lifestyles, people are not able to take time out to care about their house and office exteriors. The result is, the exteriors including brick walls, driveways, pavements, tiles and concrete, etc. getting neglected. The outdoor elements and changing climatic conditions turn them muddy and stained and in due course of time they lose their original beauty and shine."
 coverImage: "/assets/blog/restorative-power-washing/cover.png"
+photoCredit: ""
 date: "2018-04-20T05:35:07.322Z"
+readTime: "2 min"
 author:
   name: Seth Langston
   picture: "/assets/blog/authors/seth.png"

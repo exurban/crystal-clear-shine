@@ -1,8 +1,11 @@
 ---
 title: "Hurricane Florence: The Storm and Reconstruction in Wilmington, NC"
+postType: "Article"
 excerpt: "Hurricane Florence was one of the worst hurricanes to have ever hit North Carolina. How powerful was the storm? How serious is the aftermath of this storm? What efforts are being taken to get this city back on it’s feet? Let’s take a look."
 coverImage: "/assets/blog/hurricane-florence/cover.jpg"
+photoCredit: ""
 date: "2019-01-16T05:35:07.322Z"
+readTime: "6 min"
 author:
   name: Seth Langston
   picture: "/assets/blog/authors/seth.png"

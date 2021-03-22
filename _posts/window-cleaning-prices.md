@@ -1,8 +1,11 @@
 ---
 title: "Window Cleaning Prices"
-excerpt: "When getting quotes for window cleaning prices, whether through a phone call or in person, the details of windows to be cleaned, the kind and their conditions and also their accessibility will be looked at and discussed. If our technician is familiar with the description given over the phone, he may provide the price to charge. However, if the description was given is not that precise, the cleaner might only be able to give a rough estimate over the phone and then give the final price when he does the inspection. Other questions that the our experts might need to get answered are whether special equipment is required or special cleaning solutions are needed for your windows."
+postType: "Article"
+excerpt: "In order to provide an accurate quote for window cleaning services, it's important to understand what kind and how many windows will be cleaned, their current condition and how accessible they are. Sometimes we can provide a quote over the phone. Other times, we need an in-person visit to clarify the details or determine whether special equipment or solutions will be needed."
 coverImage: "/assets/blog/window-cleaning-prices/cover.png"
+photoCredit: ""
 date: "2017-11-15T05:35:07.322Z"
+readTime: "3 min."
 author:
   name: Seth Langston
   picture: "/assets/blog/authors/seth.png"

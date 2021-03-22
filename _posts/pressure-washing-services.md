@@ -1,8 +1,11 @@
 ---
 title: "Pressure Washing Services"
+postType: "Article"
 excerpt: "Pressure washing is becoming one of the most preferred methods of cleaning variety of surfaces like sidewalks and patios. One of the excellent ways of maintaining or restoring the look of the home, pressure washing helps in boosting the curb appeal of the property. You can remove all types of dirt and grime from concrete sidewalks, building, parking lot and stained deck by using pressure washing."
 coverImage: "/assets/blog/pressure-washing-services/cover.jpg"
+photoCredit: ""
 date: "2017-05-10T05:35:07.322Z"
+readTime: "5 min"
 author:
   name: Seth Langston
   picture: "/assets/blog/authors/seth.png"
