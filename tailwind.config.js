@@ -4,10 +4,6 @@ module.exports = {
   purge: ["./src/components/**/*.{js,ts,jsx,tsx}", "./src/pages/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      backgroundImage: theme => ({
-        "home-button": "url('/images/css-logo.svg')",
-        "hero-bkd": "url('/images/ccs-hero-xl.jpg')"
-      }),
       colors: {
         "brand-100": "#EE3B23",
         "brand-200": "#F36B29",
@@ -19,10 +15,6 @@ module.exports = {
         "brand-800": "#17214D",
         success: "#0070f3",
         cyan: "#79FFE1"
-      },
-      fontFamily: {
-        sans: ["Inter", ...fontFamily.sans],
-        hero: ["Lobster", ...fontFamily.sans]
       },
       spacing: {
         28: "7rem"
@@ -44,6 +36,5 @@ module.exports = {
         medium: "0 8px 30px rgba(0, 0, 0, 0.12)"
       }
     }
-  },
-  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")]
+  }
 };
