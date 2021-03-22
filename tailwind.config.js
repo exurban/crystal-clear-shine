@@ -1,18 +1,11 @@
-const { fontFamily } = require("tailwindcss/defaultTheme");
-
 module.exports = {
-  purge: ["./src/components/**/*.{js,ts,jsx,tsx}", "./src/pages/**/*.{js,ts,jsx,tsx}"],
+  purge: ["./components/**/*.tsx", "./pages/**/*.tsx"],
   theme: {
     extend: {
       colors: {
-        "brand-100": "#EE3B23",
-        "brand-200": "#F36B29",
-        "brand-300": "#F9AA61",
-        "brand-400": "#F7D7A0",
-        "brand-500": "#6BAD9D",
-        "brand-600": "#11909E",
-        "brand-700": "#146E93",
-        "brand-800": "#17214D",
+        "accent-1": "#FAFAFA",
+        "accent-2": "#EAEAEA",
+        "accent-7": "#333",
         success: "#0070f3",
         cyan: "#79FFE1"
       },
