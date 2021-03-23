@@ -27,8 +27,7 @@ const Index = () => {
         <div className="absolute inset-0">
           <img
             className="mx-auto mt-24"
-            src="/images/ccs-hero-xl.jpg"
-            // src="/images/ccs-logo.svg"
+            src="/images/ccs-hero-xl.webp"
             alt="crystal-clear-shine-hero"
             width="1200px"
             height="423px"
@@ -38,11 +37,9 @@ const Index = () => {
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:pt-32 pb:6 lg:px-8">
             <div className="mt-52 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div className="space-y-4">
-                {/* <Link href="/estimate"> */}
                 <a className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-brand-700 bg-white hover:bg-brand-600 hover:text-white sm:px-8">
                   Request a Free Estimate
                 </a>
-                {/* </Link> */}
               </div>
             </div>
           </div>
