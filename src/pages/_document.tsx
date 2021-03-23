@@ -12,11 +12,14 @@ export default class MyDocument extends Document {
             type="font/woff2"
             crossOrigin="anonymous"
           />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-            rel="stylesheet"
+            rel="preload"
+            href="/fonts/Lobster-Regular.ttf"
+            as="font"
+            type="font/ttf"
+            crossOrigin="anonymous"
           />
+
           <link href="/favicon/favicon.ico" rel="shortcut icon" />
           <link href="/favicon/site.webmanifest" rel="manifest" />
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
